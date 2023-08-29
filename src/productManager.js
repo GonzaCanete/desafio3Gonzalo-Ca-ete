@@ -83,7 +83,7 @@ class productManager{
 }
 
 
-
+// Creo las instancias de mis productos para agregarlos al array
 const productInstance = new productManager();
 productInstance.addProduct("Xbox", "Consola de videojuegos", 500, "./img", 65, 12);
 productInstance.addProduct("Playstation 5", "Consola de videojuegos", 800, "./img", 50, 30);
